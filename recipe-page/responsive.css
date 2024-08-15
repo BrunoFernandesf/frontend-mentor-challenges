@@ -1,5 +1,40 @@
 @media screen and (max-width: 720px){
     body{
-        
+        margin: 0;
+    }
+    main {
+        width: 100vw;
+        padding: 0;
+    }
+
+    /*INFO*/
+    .info-img {
+        border-radius: 0;
+    }
+    .info-itens {
+        margin: 0 10% 10% 10%;
+    }
+
+    /*PREP*/
+    .prep {
+        margin: 0 10% 10% 10%;
+    }
+
+    /*INGREDIENTS*/
+    .ingredients {
+        margin: 0 10% 10% 10%;
+    }
+
+    /*INSTRUCTIONS*/
+    .instructions {
+        margin: 0 10% 10% 10%;
+    }
+
+    /*NUTRITION*/
+    .nutrition {
+        margin: 0 10% 10% 10%;
+    }
+    table td:first-child {
+        padding: 10px 100px 5px 25px;
     }
 }
