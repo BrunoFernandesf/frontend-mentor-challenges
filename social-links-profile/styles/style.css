@@ -1,8 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap');
 body {
+    margin: 0;
+    padding: 0;
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
     font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 main {
     background-color: hsl(0, 0%, 12%);
+    width: 20%;
+    height: 60%;
+    text-align: center;
+    font-family: "Inter",serif;
+    padding: 2% 0% 2% 0%;
+    border-radius: 15px;
 }
+
+/*PROFILE IMG*/
+.img {
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+}
+
+/*DETAILS*/
+.details-title {
+    margin-bottom: 0;
+}
+.details-location {
+    color: hsl(75, 94%, 57%);
+    margin: 0;
+}
+
+/*PHRASE*/
+.phrase-text {
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+    padding: 2% 0% 0% 0%;
+}
+
+/*LINKS*/
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    width: 85%;
+    gap: 4%;
+    margin: 0 auto;
+}
+.links-itens {
+    padding: 5%;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.links-itens:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+@media screen and (max-width: 720px) {
+    main {
+        width: 90%;
+        height: 75%;
+    }
+} 
