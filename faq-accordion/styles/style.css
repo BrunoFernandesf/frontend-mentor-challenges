@@ -1,38 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
+    height: 100vh;
     background-image: url("../assets/images/background-pattern-desktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
     font-family: "Work Sans", sans-serif;
     font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
     background-color: hsl(0, 0%, 100%);
-    width: 50%;
-    margin: 0 auto;
+    width: 37%;
     border: 1px solid hsl(292, 16%, 49%);
     border-radius: 10px;
+    padding: 3%;
 }
 
 /*TITLE*/
 .title{
     display: flex;
     font-size: 3em;
+    gap: 5%;
 }
 .title h1{
     font-weight: 700;
+    margin: 0;
     color: hsl(292, 42%, 14%);
 }
 
 /*QUESTION*/
 .question{
-    font-size: 1.5em;
+    width: 100%;
+    margin: 5% 0 0 0;
+}
+.question-pt01{
+    display: flex;
+    justify-content: space-between;
 }
 .question h2{
     color: hsl(292, 42%, 14%);
+    font-size: 2em;
 }
 .question p{
     color: hsl(292, 16%, 49%);
+    font-size: 1.5em;
+}
+
+/*ACTIVE STATES*/
+.question-pt02{
+    display: none;
+}
+.question-pt02-vis{
+    display: flex;
+}
+.question{
+    cursor: pointer;
+}
+.question-pt01 h2:hover{
+    color: hsl(293, 65%, 39%);
+}
+
+@media screen and (max-width: 320px) {
+    body{
+        background-size: auto;
+    }
+    main{
+        width: 80%;
+    }
 }
