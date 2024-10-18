@@ -1,0 +1,34 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightgrey: hsl(217, 12%, 63%);
+    --darkblue: hsl(213, 19%, 18%);
+    --verydarkblue: hsl(216, 12%, 8%);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--verydarkblue);
+    color: var(--white);
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 50%;
+    height: 50%;
+    background-color: var(--darkblue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.5rem;
+}
+
+.selection-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
