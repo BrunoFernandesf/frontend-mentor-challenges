@@ -1,0 +1,11 @@
+:root{
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    ---lightgrey: hsl(217, 12%, 63%);
+    --darkblue: hsl(213, 19%, 18%);
+    --verydarkblue: hsl(216, 12%, 8%); 
+}
+
+body{
+    background-color: var(--verydarkblue);
+}
