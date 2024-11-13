@@ -7,5 +7,29 @@
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--verydarkblue);
+    color: var(--white);
+    font-size: 20px;
+}
+
+.card{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 15%;
+    background-color: var(--darkblue);
+    padding: 2%;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
