@@ -32,6 +32,13 @@ body{
     padding: 2%;
     border-radius: 5%;
 }
+.card-verso{
+    align-items: center;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
 
 .card-title{
     font-weight: 500;
